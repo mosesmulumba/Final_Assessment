@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.side{
+    position: fixed;
+    border-right: 1px solid #ccc;
+}
+.main div{
+    display: flex;
+    gap: 1rem;
+}
+.middle{
+    margin-left: 280px;
+    border-right: 1px solid #ccc;
+    min-height: 0;
+}
+.last{
+    margin-left: 980px;
+}
+.middle nav{
+    position: fixed;
+    width: 76%;
+    z-index: 1000;
+    opacity: 1;
+}
+.nav li{
+    padding-top: 0.5rem;
+    font-size: 18px;
+}
+.breadcrumb{
+    padding-left: 1.5rem;
+    padding-bottom: 1.4rem;
+    font-size: 17px;
+    border-bottom: 1px solid #ccc;
+}
+.card{
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+}
+.card img{
+    position: absolute;
+    z-index: 1;
+}
+.images{
+    /* margin-bottom: 1rem; */
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 50rem;
+    opacity: 0.6;
+    padding-left: 5rem;
+    overflow-x: hidden;
+}
+.icons{
+    color: #ccc;
+}
